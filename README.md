@@ -1,3 +1,6 @@
+# ReactJs_Fundamentals
+This is the react js fundamental repository for anyone to start with.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
