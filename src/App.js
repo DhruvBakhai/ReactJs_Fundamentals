@@ -12,15 +12,17 @@ import { AuthProvider } from "./Components/auth";
 import Login from "./Components/Login";
 import RequireAuth from "./Components/RequireAuth";
 import React from "react";
+import TestForm from "./Components/TestForm";
 const lazyAbout = React.lazy(() => import("./Components/About"));
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <React.Suspense fallback="loading...">
         <AuthProvider>
           <Navbar />
-          <Routes>
+          <TestForm />
+          {/* <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<lazyAbout />} />
             <Route path="order-summary" element={<OrderSummary />} />
@@ -34,7 +36,7 @@ function App() {
             />
             <Route path="*" element={<NoMatch />} />
             <Route path="login" element={<Login />} />
-          </Routes>
+          </Routes> */}
         </AuthProvider>
       </React.Suspense>
     </div>
@@ -42,3 +44,52 @@ function App() {
 }
 
 export default App;
+
+////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+// Alternate way to public routes and private routes
+/* import React from 'react';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import Home from './Home';
+import Dashboard from './Dashboard';
+
+function App() {
+  return (
+    <Router>
+      <Switch>
+        Public Route: Home
+        <Route path="/" exact component={Home} />
+
+        Private Route: Dashboard
+        <PrivateRoute path="/dashboard" component={Dashboard} />
+      </Switch>
+    </Router>
+  );
+}
+
+export default App;
+
+
+import React from 'react';
+import { Route, Redirect } from 'react-router-dom';
+
+const fakeAuth = {
+  isAuthenticated: true, // Change this based on actual authentication status
+};
+
+const PrivateRoute = ({ component: Component, ...rest }) => (
+  <Route
+    {...rest}
+    render={(props) =>
+      fakeAuth.isAuthenticated ? (
+        <Component {...props} />
+      ) : (
+        <Redirect to="/" />
+      )
+    }
+  />
+);
+
+export default PrivateRoute;
+ */

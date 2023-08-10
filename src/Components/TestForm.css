@@ -1,0 +1,57 @@
+/* TestForm.css */
+
+/* Center the form and add some spacing */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Style the form field containers */
+  .form-container > div {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the labels */
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Style the input fields and textareas */
+  input,
+  textarea {
+    padding: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the error messages */
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  
+  /* Style the submit button */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the nested fields */
+  .form-container > div > div {
+    margin-top: 5px;
+  }
+  
