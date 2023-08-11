@@ -12,25 +12,3 @@ code {
     monospace;
 }
 
-nav{
-  display: flex;
-  align-items: flex-start;
-  justify-content:flex-start;
-  padding: 10px;
-  
-  background-color: azure;
-  font-size: larger;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-
-
-}
-nav  a {
-  padding-right:15px ;
-
-}
- 
-nav a.active {
-  text-decoration: none;
-  font-weight: bolder;
-}

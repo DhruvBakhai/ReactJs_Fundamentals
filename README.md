@@ -1,6 +1,10 @@
 # ReactJs_Fundamentals
 This is the react js fundamental repository for anyone to start with.
 
+# React Router
+for better understanding here is the link of the detailed documentation of the same project structure and also about the react router setup is here :
+https://docs.google.com/document/d/115ZUjx3cFiguJtNNBYWpfSbm8zWBJdSNlXfdLNKCyR4/edit?usp=sharing
+
 # React Form handling libraries
 
 In React applications, forms are an essential part of user interaction. To streamline form handling, various form libraries are available. Here, we'll explore some popular React form libraries, discuss when to use them, and provide examples for different use cases.
@@ -43,9 +47,6 @@ For react-formik
 source of study : youtube playlist(codevolution), chatgpt, github repositories
 link : https://youtube.com/playlist?list=PLC3y8-rFHvwiPmFbtzEWjESkqBVDbdgGu ,
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
