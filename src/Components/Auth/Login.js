@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from "./auth";
+import { useAuth } from "../../utils/auth";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function Login() {
@@ -10,7 +10,7 @@ function Login() {
   const redirectpath = location.state?.path || "/";
 
   const handleLogin = () => {
-    auth.login(user);
+    // auth.login(user);
     navigate(redirectpath, { replace: true });
   };
   return (
