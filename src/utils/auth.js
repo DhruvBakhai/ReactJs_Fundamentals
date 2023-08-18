@@ -3,7 +3,7 @@
 
 export const isAuthenticated = () => {
   // Return true if user is authenticated, false otherwise
-  return true;
+  return false;
 };
 
 export const login = () => {
