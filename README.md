@@ -5,6 +5,9 @@ This is the react js fundamental repository for anyone to start with.
 for better understanding here is the link of the detailed documentation of the same project structure and also about the react router setup is here :
 https://docs.google.com/document/d/115ZUjx3cFiguJtNNBYWpfSbm8zWBJdSNlXfdLNKCyR4/edit?usp=sharing
 
+# React Redux Setup
+for better understanding here is the link of the detailed documentation of the same about the react redux setup is here :
+https://docs.google.com/document/d/1knUgZFodIouUbtBB1lhhl8xIEcVBzj0-0WKzITc710M/edit?usp=sharing
 # React Form handling libraries
 
 In React applications, forms are an essential part of user interaction. To streamline form handling, various form libraries are available. Here, we'll explore some popular React form libraries, discuss when to use them, and provide examples for different use cases.
